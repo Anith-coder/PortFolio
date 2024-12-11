@@ -12,7 +12,7 @@ const Resume = () => {
     </div>
     <div className='md:w-1/2 flex justify-center'>
     <div className='flex flex-col justify-center text-white font-hero-font'>
-        <h1 className='text-5xl border-b-4 border-secondary mb-5 w-[195px] font-bold'>Resume</h1>
+        <h1 className='text-5xl border-b-4 border-secondary mb-5 w-[195px] font-bold text-black'>Resume</h1>
         <p className='pb-6 text-2xl'>You Can View My Resume <a  className='button' href={config.link}>Download</a></p>
     </div>
     </div>

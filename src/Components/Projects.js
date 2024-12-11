@@ -9,7 +9,7 @@ const Projects = () => {
             {
             image: projectimg1,
             description: "A Ecommerce Website, Built With Mern Stack",
-            link: "",
+            link: "https://github.com/Anith-coder/PortFolio.git",
         },
             {
             image: projectimg2,
@@ -24,11 +24,11 @@ const Projects = () => {
         ]
     }
   return (
-    <section id='projects' className='flex flex-col py-20 px-5 justify-center text-white bg-secondary'>
+    <section id='projects' className='flex flex-col py-20 px-5 justify-center text-white bg-secondary font-hero-font'>
     <div className='w-full'>
     <div className='flex flex-col px-10 py-5'>
-        <h1 className='text-5xl border-b-4 mb-5 w-[180px] font-bold border-primary'>Projects</h1>
-        <p>These Are Some Of My Best Projects. I Have Built Thede With React, Mern And Tailwind CSS. Check Them Out.</p>
+        <h1 className='text-5xl border-b-4 mb-5 w-[198px] font-bold border-primary'>Projects</h1>
+        <p className='text-2xl pb-6 text-black'>These Are Some Of My Best Projects. I Have Built Thede With React, Mern And Tailwind CSS. Check Them Out.</p>
     </div>
     </div>
     <div className='w-full'>
