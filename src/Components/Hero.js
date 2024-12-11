@@ -13,17 +13,17 @@ const Hero = () => {
   }
   return (
     <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center'>
-        <div className='md:w-1/2 flex-col'>
-    <h1 className=' text-white text-6xl font-hero-font'><span className='text-black'>Hi,</span> <br/> I'm <span className='text-black '>Maria</span> Anith 
-    <p className='text-3xl mt-2 text-black'>{config.subtitle}</p>
-    </h1>
-    <div className='flex py-10'>
-        <a href= '#' className='pr-5 hover:text-white'><FaGithub size={40} /></a>
-        <a href={config.social.linkedin} className='pr-5 hover:text-white'><FaLinkedin size={40} /></a>
-        <a href={config.social.facebook} className='pr-5 hover:text-white'><FaFacebook size={40} /></a>
-    </div>
-    </div>
-    <img className='md:w-1/3' src={HeroImg} />
+      <div className='md:w-1/2 flex-col'>
+        <h1 className=' text-white text-6xl font-hero-font'><span className='text-black'>Hi,</span> <br /> I'm <span className='text-black '>Maria</span> Anith
+          <p className='text-3xl mt-2 text-black'>{config.subtitle}</p>
+        </h1>
+        <div className='flex py-10'>
+          <a href='#' className='pr-5 hover:text-white'><FaGithub size={40} /></a>
+          <a href={config.social.linkedin} className='pr-5 hover:text-white'><FaLinkedin size={40} /></a>
+          <a href={config.social.facebook} className='pr-5 hover:text-white'><FaFacebook size={40} /></a>
+        </div>
+      </div>
+      <img className='md:w-1/3' src={HeroImg} />
     </section>
   )
 }
