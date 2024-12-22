@@ -1,24 +1,24 @@
 import React from 'react'
-import projectimg1 from '../assets/ecommerce-websites.jpg'
-import projectimg2 from '../assets/food-ecommerce.jpg'
-import projectimg3 from '../assets/website-blog.jpg'
+import projectimg1 from '../assets/Portfolio.png'
+import projectimg2 from '../assets/QrCode.png'
+import projectimg3 from '../assets/To-Do-List.png'
 
 const Projects = () => {
     const config = {
         projects: [
             {
                 image: projectimg1,
-                description: "A Ecommerce Website, Built With Mern Stack",
+                description: "A Portfolio Website, Built With React.js And Tailwind CSS",
                 link: "https://github.com/Anith-coder/PortFolio.git",
             },
             {
                 image: projectimg2,
-                description: "Food Ecommerce Website Like Swiggy, Built With React",
+                description: "A Qr Code Generator And Downloader, Built With React.js",
                 link: "",
             },
             {
                 image: projectimg3,
-                description: "Basic Blog Website, Built WIth Js",
+                description: "To Do List , Built WIth Js",
                 link: "",
             }
         ]
@@ -35,7 +35,7 @@ const Projects = () => {
                 <div className='flex felx-col md:flex-row px-10 gap-5'>
                     {config.projects.map((project) => (
                         <div className='relative'>
-                            <img className='h-[200px] w-[500px]' src={project.image} />
+                            <img className='h-[200px] w-[500px] border-4' src={project.image} />
                             <div className='project-dis'>
                                 <p className='text-center px5 py-5'>{project.description}</p>
                                 <div className='flex justify-center'>

@@ -18,7 +18,7 @@ const Hero = () => {
           <p className='text-3xl mt-2 text-black'>{config.subtitle}</p>
         </h1>
         <div className='flex py-10'>
-          <a href='#' className='pr-5 hover:text-white'><FaGithub size={40} /></a>
+          <a href={config.social.github} className='pr-5 hover:text-white'><FaGithub size={40} /></a>
           <a href={config.social.linkedin} className='pr-5 hover:text-white'><FaLinkedin size={40} /></a>
           <a href={config.social.facebook} className='pr-5 hover:text-white'><FaFacebook size={40} /></a>
         </div>
