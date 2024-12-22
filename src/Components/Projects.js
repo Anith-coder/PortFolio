@@ -14,12 +14,12 @@ const Projects = () => {
             {
                 image: projectimg2,
                 description: "A Qr Code Generator And Downloader, Built With React.js",
-                link: "",
+                link: "https://github.com/Anith-coder/QrGenerator",
             },
             {
                 image: projectimg3,
-                description: "To Do List , Built WIth Js",
-                link: "",
+                description: "To Do List , Built WIth HTML, CSS, Javascript",
+                link: "https://github.com/Anith-coder/Todo-List",
             }
         ]
     }
@@ -28,7 +28,7 @@ const Projects = () => {
             <div className='w-full'>
                 <div className='flex flex-col px-10 py-5'>
                     <h1 className='text-5xl border-b-4 mb-5 w-[198px] font-bold border-primary'>Projects</h1>
-                    <p className='text-2xl pb-6 text-black'>These Are Some Of My Best Projects. I Have Built Thede With React, Mern And Tailwind CSS. Check Them Out.</p>
+                    <p className='text-2xl pb-6 text-black'>These Are Some Of My Best Projects. I Have Built This projects With React And Tailwind CSS. Check Them Out.</p>
                 </div>
             </div>
             <div className='w-full'>
