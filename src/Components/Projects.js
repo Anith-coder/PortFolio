@@ -32,7 +32,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='w-full'>
-                <div className='flex felx-col md:flex-row px-10 gap-5'>
+                <div className='flex flex-col md:flex-row px-10 gap-5'>
                     {config.projects.map((project) => (
                         <div className='relative'>
                             <img className='h-[200px] w-[500px] border-4' src={project.image} />
@@ -42,7 +42,6 @@ const Projects = () => {
                                     <a className='button' target='_blank' href={project.link}>View Project</a>
                                 </div>
                             </div>
-
                         </div>
                     ))}
 
